@@ -9,14 +9,61 @@
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- Dev Icon Fonts-->
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 <body>
-    <h1>teste</h1>
-    <ion-icon name="heart"></ion-icon>
-    <i class="devicon-dart-plain-wordmark colored"></i> 
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Leonardo Brito</h2>
+            <img id="bio-image" src="img/profile.jpg" alt="Leonardo Brito">
+            <p>Olá! Meu nome é Leonardo Brito e sou <span class="highlight">Desenvolvedor Full Stack</span>.</p>
+            <p id="welcome-text">Seja bem vindo!</p>
+            <ul id="social-container">
+                <li><a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icons></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icons></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icons></a></li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name='mail-outline'></ion-icon><a href="mailto:leonardobritto.jr@gmail.com">leonardobritto.jr@gmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Leonardo Brito</h1>
+            <p id="title"><span class="highlight">Análise e Desenvolvimento de Sistemas</span></p>
+            <p class="description">Sou estudante de Análise e Desenvolvimento de Sistemas</p>
+            <p class="description">Estudo todos os dias para aprimorar meus skills e <span class="highlight">escrever códigos de qualidade</span>.</p>
+            <a href="#" id="btn-projects"><span>Ver Projetos</span></a>
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="description">Conheça as tecnologias que domino:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>  
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-python-plain colored"></i>
+                    <i class="devicon-php-plain colored"></i>  
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Mobile</p>
+                    <i class="devicon-dart-plain colored"></i>
+                    <i class="devicon-flutter-plain colored"></i>  
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-firebase-plain colored"></i>
+                    <i class="devicon-postgresql-plain colored"></i>
+                </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
     <!--Ion Icons-->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
